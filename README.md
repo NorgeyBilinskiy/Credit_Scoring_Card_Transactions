@@ -29,6 +29,23 @@ https://ods.ai/competitions/dl-fintech-card-transactions/data
 
 8)	lightgbm: Библиотека для градиентного бустинга, разработанная компанией Microsoft, известная своей эффективностью и скоростью, особенно при работе с большими данными.
 9)	catboost: Библиотека для градиентного бустинга, разработанная компанией Яндекс, которая поддерживает как CPU, так и GPU ускорение. 
+10) TensorFlow/Keras: Библиотека для реализации и обучения моделей LSTM:
+
+        •	tensorflow.keras.models.Sequential: Для создания последовательной модели.
+        •	tensorflow.keras.layers.LSTM: Для добавления слоев LSTM в модель.
+        •	tensorflow.keras.layers.Dense: Для создания полносвязного слоя.
+        •	tensorflow.keras.layers.Dropout: Для добавления слоев Dropout с целью регуляризации модели.
+        •	tensorflow.keras.preprocessing.sequence.pad_sequences: Для выполнения паддинга последовательностей.
+        •	tensorflow.keras.utils.to_categorical: Для преобразования меток в категориальный формат.
+
+
+11) PyTorch: Библиотека для реализации и обучения моделей LSTM:
+
+        •	torch: Основная библиотека PyTorch.
+        •	torch.nn: Для создания нейронных сетей и различных слоев.
+        •	torch.optim: Для реализации оптимизаторов, используемых при обучении моделей.
+        •	torch.utils.data.DataLoader: Для создания загрузчиков данных.
+        •	torch.utils.data.TensorDataset: Для создания наборов данных из тензоров.
 
 ## Авторы
 
